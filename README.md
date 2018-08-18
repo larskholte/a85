@@ -6,6 +6,7 @@ For more info, [see Wikipedia](https://en.wikipedia.org/wiki/Ascii85).
 
 ## Usage
 The two main functions:
+
     // Translates the given binary data of the given size to ascii85.
     // Can translate in-place.
     // Optionally appends a null character.
