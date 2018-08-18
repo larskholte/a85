@@ -19,4 +19,4 @@ void a85::from_a85(const char* text, int textlen, u8* data);
 ```
 
 ## License
-Copy as you please. No attribution necessary.
+Copy and use as you please. No attribution necessary.
