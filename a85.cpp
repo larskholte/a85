@@ -44,7 +44,6 @@ void to_a85(const u8* data, int binlen, char* text, bool append_null) {
         *(--text) = val % 85 + 33;
         val /= 85;
         *(--text) = val % 85 + 33;
-        val /= 85;
         binlen -= 4;
     }
 }
